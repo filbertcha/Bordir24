@@ -1,0 +1,172 @@
+body {
+    background-color:#fcefef;
+}
+.logo {
+    position: relative;
+    width: 100px;
+    top: 20px;
+    left: 20px;
+}
+
+.container {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.container-reset {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.container-register {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.googlebtn {
+    width: 340px;
+    height: 45px;
+    border-radius: 8px;
+    background-color: transparent;
+    font-weight: bold;
+    border: 3px solid;
+    transition: transform 250ms;
+}
+
+.googlebtn:hover{
+    transform: translateY(-1px);
+}
+
+.gimg {
+    margin-right: 6px;
+    margin-bottom: 4px;
+    width: 20px;
+}
+
+p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 340px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: transparent;
+    margin-bottom: 18px;
+    border: 3px solid;
+    padding-left: 15px;
+}
+
+input:focus {
+    outline: none;
+    border: 3px solid rgb(49, 43, 209);
+}
+
+.loginbtn {
+    width: 340px;
+    height: 45px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 15pt;
+    transition: transform 250ms;
+}
+
+.loginbtn:hover {
+    transform: translateY(-1px);
+}
+
+.resetbtn {
+    width: 340px;
+    height: 45px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 15pt;
+    transition: transform 250ms;
+}
+
+.resetbtn:hover {
+    transform: translateY(-1px);
+}
+
+.link {
+    margin-top: 15px;
+}
+
+.link1 {
+    margin-top: 6px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.policy {
+    font-size: 9pt;
+    color: rgb(114, 113, 113);
+}
+
+@media screen and (max-width: 425px){
+    .logo {
+        display: none;
+    }
+
+    .container {
+        margin-top: 100px;
+    }
+
+    .container-register {
+        margin-top: 100px;
+    }
+
+    .container-reset {
+        margin-top: 100px;
+    }
+
+    .googlebtn {
+        width: 90%;
+        height: 45px;
+        border-radius: 8px;
+        background-color: transparent;
+        font-weight: bold;
+        border: 3px solid;
+    }
+    .loginbtn {
+        width: 90%;
+        height: 45px;
+        border-radius: 8px;
+        background-color: black;
+        color: white;
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: 15pt;
+    }
+    .resetbtn {
+        width: 90%;
+        height: 45px;
+        border-radius: 8px;
+        background-color: black;
+        color: white;
+        font-weight: bold;
+        font-size: 15pt;
+    }
+    input {
+        width: 90%;
+        height: 45px;
+        border-radius: 5px;
+        background-color: transparent;
+        margin-bottom: 18px;
+        border: 3px solid;
+        padding-left: 15px;
+    }
+}
